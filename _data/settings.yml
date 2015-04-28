@@ -1,0 +1,45 @@
+# Site Settings
+title: Christa Tingzon
+baseurl: ""
+
+#-----------
+# Content
+#-----------
+
+#Top-bar
+twitter:
+ title: Twitter
+ url: 'http://twitter.com/christatingzon'
+
+email:
+ title: Email Me
+ url: 'mailto:christatingzon@gmail.com'
+
+#About Me Section
+aboutme: |
+ Hello! I am a web developer hails from Davao, PH.
+ I transition to freelance business after being an
+ IT educator for a year.
+
+#Works Section
+works:
+- {title: Work Orders,
+  description: 'I worked with Strategio.ca to cus- tomize a PHP build system that allows to track installation order for technician.'}
+- {title: 'Hacker Retreat',
+  description: 'Online info hub for hackers living in the berlin side of Germany.'}
+- {title: 'Less Risk, More Return',
+  description: 'A website for the author of financial adviser and retirement strategist, Lee Hull.'}
+- {title: 'More..',
+  description: 'Websites and plugins are still in progress. Please check back for more works.'}
+
+#Contact Section
+contact: |
+  The best way to reach me is to  
+  send an email to [christatingzon@gmail.com](mailto:christatingzon@gmail.com).
+
+  I would love to connect with you, let's follow each other on Twitter. You can see me as [@christatingzon](http://twitter.com/christatingzon).
+
+#Footer
+footernote: >
+  &copy; Christa Tingzon. Thanks to **[Github Pages](https://pages.github.com/)**, **[Google Fonts](https://www.google.com/fonts)**,
+  & **[Dreb Bits](http://drebbits.com/)**.

@@ -1,7 +1,23 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+---
+layout: default
+---
+<div class="with_bgcolor">
+	<section class="about">
+		<h1>{{ site.data.settings.title }}</h1>
+		<p>{{ site.data.settings.aboutme }}</p>
+	</section>
+	<section class="works">
+		<h3>Works</h3>
+		<div class="work-list">
+			{% for works in site.data.settings.works %}
+			<div class="work-unit">
+				<div class="work-title">{{ works.title }}</div>
+				<div class="work-description"><p>{{ works.description }}</p></div>
+			</div>
+			{% endfor %}
+		</div>
+	</section>
+</div>
+<section class="contact clearfix">
+{{ site.data.settings.contact | markdownify }}
+</section>
