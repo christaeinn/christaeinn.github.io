@@ -1,3 +1,3 @@
 # christatingzon.github.io
 
-Something I'm busy working on before.
+A one-page portfolio that runs in Jekyll.
