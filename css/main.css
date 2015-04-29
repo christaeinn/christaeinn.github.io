@@ -52,7 +52,6 @@ a {
 /* Top Bar */
 ul.topbar {
 	text-align: right;
-	font-weight: 600;
 }
 	ul.topbar li {
 		display: inline-block;
