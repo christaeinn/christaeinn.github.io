@@ -137,3 +137,6 @@ h3 {
 		font-size: 0.875rem;
 		padding: 18px 15px 25px 15px;
 	}
+	.site_footer p a {
+		font-weight: 600;
+	}
