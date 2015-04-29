@@ -52,7 +52,6 @@ a {
 /* Top Bar */
 ul.topbar {
 	text-align: right;
-	font-weight: 600;
 }
 	ul.topbar li {
 		display: inline-block;
@@ -137,4 +136,7 @@ h3 {
 		text-align: center;
 		font-size: 0.875rem;
 		padding: 18px 15px 25px 15px;
+	}
+	.site_footer p a {
+		font-weight: 600;
 	}
