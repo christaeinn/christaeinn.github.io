@@ -1,2 +1,4 @@
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-autoprefixer
