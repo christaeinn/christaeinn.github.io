@@ -1,3 +1,3 @@
 # christatingzon.github.io
 
-A one-page portfolio that runs in Jekyll.
+A Jekyll-based one-page portfolio of a web developer from Davao, Philippines.
